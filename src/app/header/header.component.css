@@ -1,0 +1,22 @@
+mat-toolbar {
+  background-color: cornsilk;
+  border-bottom: 2px solid darkslategrey;
+}
+.main-text {
+  font-size: 24pt;
+}
+.spacer {
+  flex: auto;
+}
+.left-menu {
+}
+input[matInput] {
+  width: auto;
+}
+mat-form-field {
+  width: 120px;
+  margin: 0 10px;
+}
+button[mat-button] {
+  background-color: white;
+}

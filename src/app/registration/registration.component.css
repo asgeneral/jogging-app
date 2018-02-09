@@ -1,0 +1,32 @@
+.body {
+  display: flex;
+}
+.content {
+  margin: 1% auto;
+//background-color: lightcyan;
+  display: flex;
+  flex-flow: column nowrap;
+  min-width: 320px;
+}
+.registration-main {
+  font-size: 25pt;
+  margin: 2% auto;
+}
+.first-second-names {
+  display: flex;
+  justify-content: space-between;
+}
+input[matInput] {
+  background-color: white;
+  padding: 4px;
+}
+.font-size-reg {
+  font-size: 14pt;
+}
+mat-form-field {
+  margin-bottom: 4%;
+  border-bottom: 1px solid darkslategray;
+}
+.two-input-in-row {
+  width: 140px;
+}
